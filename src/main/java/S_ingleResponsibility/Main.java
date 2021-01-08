@@ -1,4 +1,4 @@
-package singleResponsibility;
+package S_ingleResponsibility;
 
 // Single Responsibility
 
@@ -8,11 +8,12 @@ public class Main {
 
         Book book = new Book();
         book.setName("Testing simple responsibility");
-        book.setAuthor("Author");
+        book.setAuthor("Norman Rockwell");
         book.setText("Description of a Book");
 
         BookPrinter printer = new BookPrinter();
-        printer.printTextToConsole(book.getText());
+        System.out.println(printer.printTextToConsole(book.getText()));
+
 
     }
 }

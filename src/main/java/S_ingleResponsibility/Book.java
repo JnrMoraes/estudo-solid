@@ -1,4 +1,4 @@
-package singleResponsibility;
+package S_ingleResponsibility;
 
 public class Book {
 
@@ -7,13 +7,13 @@ public class Book {
     private String text;
 
 
-    public String replaceWordInText(String word){
-        return text.replaceAll(word, text);
-    }
-
-    public boolean isWordInText(String word){
-        return text.contains(word);
-    }
+//    public String replaceWordInText(String word){
+//        return text.replaceAll(word, text);
+//    }
+//
+//    public boolean isWordInText(String word){
+//        return text.contains(word);
+//    }
 
 
     public Book() {
