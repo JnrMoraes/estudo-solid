@@ -13,6 +13,6 @@ public class Main {
         System.out.println("Meu carro com " + motor.getCavalos() + " cavalos e com " +
                 motor.getRpm() + " faz esse barulho quando ligado " + carro.ligar() +
                 " e quando ele acelera faz " + carro.acelerar() +
-                " e quando desligo ele aparece no painel " + carro.desligar());
+                " \n e quando desligo ele aparece no painel " + carro.desligar());
     }
 }

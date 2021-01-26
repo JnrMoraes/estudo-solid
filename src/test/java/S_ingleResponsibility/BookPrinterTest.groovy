@@ -3,7 +3,8 @@ package S_ingleResponsibility
 import spock.lang.Specification
 
 class BookPrinterTest extends Specification {
-    def "Print an Description Book on console using a book "() {
+
+    def "Print an Description's Book on console"() {
 
         given: "A book"
         Book book = new Book();

@@ -8,6 +8,7 @@ public class Main {
 
         Tratador tratador = new Tratador();
         tratador.setNome("Dionisio Vergueira");
+        tratador.ConversarComOsAnimais();
 
         System.out.println("Todos os dias essa rotina acontece");
         System.out.println(tratador.limpaJaula() + tratador.alimentoOsAnimais());
