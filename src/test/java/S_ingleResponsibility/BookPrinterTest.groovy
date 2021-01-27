@@ -20,4 +20,19 @@ class BookPrinterTest extends Specification {
         then: "Got a book with text attribute filed "
         response == "Description of a Book"
     }
+
+    def "set null in text descrition in Book  "() {
+
+        given: "A book with null set"
+        Book book = new Book();
+        book.setText(null)
+
+        BookPrinter bookPrinter = new BookPrinter();
+
+        when: "Getting a Description with printer "
+        String response = bookPrinter.printTextToConsole(book.getText())
+
+        then: "Got a book with text attribute filed null"
+        response == null
+    }
 }

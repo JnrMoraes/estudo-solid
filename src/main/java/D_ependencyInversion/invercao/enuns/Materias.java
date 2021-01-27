@@ -1,6 +1,6 @@
 package D_ependencyInversion.invercao.enuns;
 
-public enum Materia {
+public enum Materias {
 
     BIOLOGIA,
     CIENCIAS,

@@ -7,7 +7,7 @@ public class Main {
         pessoa.setNome(" João da Luz");
 
         Tratador tratador = new Tratador();
-        tratador.setNome("Dionisio Vergueira");
+        tratador.setNome(pessoa.getNome());
         tratador.ConversarComOsAnimais();
 
         System.out.println("Todos os dias essa rotina acontece");

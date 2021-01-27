@@ -21,7 +21,4 @@ public class Estudante {
         this.materias.add(materia);
     }
 
-//    public getTotalNotas(){
-//
-//    }
 }
