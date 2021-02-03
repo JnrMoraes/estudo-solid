@@ -1,7 +1,7 @@
-package D_ependencyInversion.invercao.materias;
+package D_ependencyInversion.inversao.materias;
 
-import D_ependencyInversion.invercao.Materia;
-import D_ependencyInversion.invercao.Nota;
+import D_ependencyInversion.inversao.Materia;
+import D_ependencyInversion.inversao.Nota;
 
 import java.util.List;
 

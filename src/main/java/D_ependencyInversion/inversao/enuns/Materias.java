@@ -1,4 +1,4 @@
-package D_ependencyInversion.invercao.enuns;
+package D_ependencyInversion.inversao.enuns;
 
 public enum Materias {
 
